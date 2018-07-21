@@ -6,7 +6,7 @@
 /*   By: apogorze <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/20 15:21:07 by apogorze          #+#    #+#             */
-/*   Updated: 2018/07/21 13:27:55 by apogorze         ###   ########.fr       */
+/*   Updated: 2018/07/22 00:47:54 by clement          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,9 +54,9 @@ void	ft_sort_params(int argc, char **argv)
 	char *str;
 	
 	i = 0;
-	j = 1;
 	while (i < argc)
 	{
+		j = 1;
 		while (j < argc - 1)
 		{
 			if (ft_strcmp(argv[j], argv[j + 1]) == 1)
